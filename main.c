@@ -2,8 +2,8 @@
 // main.c
 // Hawaiian-sounding word generator
 //
-// Copyright (c) 2012 William R. Fraser
-// 1/22/2012. Written in Kahana, Maui :)
+// Copyright (c) 2013 William R. Fraser
+// 1/22/2013. Written in Kahana, Maui :)
 //
 
 #include <stdio.h>

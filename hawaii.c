@@ -13,8 +13,8 @@
 #include <string.h>
 #include <time.h>
 
-char vowels[] = { 'a','e','i','o','u' };
-char cons[]   = { 'h','k','l','m','n','p','w' };
+const char vowels[] = { 'a','e','i','o','u' };
+const char cons[]   = { 'h','k','l','m','n','p','w' };
 
 // add a syllable at the start of buf
 // returns the number of characters written
@@ -79,7 +79,7 @@ bool is_vowel(char c)
 // Give a character buffer containing the word, and the length of the word (without
 // null-terminators).
 // Returns a new buffer with the apostrophe-added word.
-char* add_apostrophes(char* word, size_t len)
+char* add_apostrophes(const char* word, size_t len)
 {
     char* word2 = (char*)malloc(len * 2 + 1);
 
